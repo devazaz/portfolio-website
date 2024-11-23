@@ -1,16 +1,40 @@
-export default function Header() {
-    return (
-      <header className="sticky top-0 bg-white shadow z-50">
-        <nav className="container mx-auto flex items-center justify-between py-4 px-6">
-          <h1 className="text-xl font-bold">Azaz Dev</h1>
-          <ul className="flex space-x-6">
-            {["Home", "About", "Skills", "Projects", "Experience", "Contact"].map((item) => (
-              <li key={item} className="hover:text-blue-500 cursor-pointer">{item}</li>
-            ))}
-          </ul>
-          <button className="p-2 rounded-md bg-gray-200">Light/Dark</button>
+
+export const Header = () => {
+  return (
+    <header className="bg-gray-900 text-gray-300">
+      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div>
+          <a href="/" className="text-2xl font-bold text-white hover:text-indigo-400 transition">
+            Muhammad Azaz
+          </a>
+        </div>
+        <nav className="flex gap-6">
+          <a
+            href="#about"
+            className="hover:text-indigo-400 transition text-gray-300"
+          >
+            About
+          </a>
+          <a
+            href="#projects"
+            className="hover:text-indigo-400 transition text-gray-300"
+          >
+            Projects
+          </a>
+          <a
+            href="#skills"
+            className="hover:text-indigo-400 transition text-gray-300"
+          >
+            Skills
+          </a>
+          <a
+            href="#contact"
+            className="hover:text-indigo-400 transition text-gray-300"
+          >
+            Contact
+          </a>
         </nav>
-      </header>
-    );
-  }
-  
+      </div>
+    </header>
+  );
+};
