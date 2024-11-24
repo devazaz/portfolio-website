@@ -53,12 +53,12 @@ export default function Hero() {
               Projects Delivered
             </p>
           </div>
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <span className="text-6xl font-bold text-indigo-400">{users}+</span>
             <p className="text-lg font-semibold text-gray-300">
               Satisfied Users
             </p>
-          </div>
+          </div> */}
           <div className="flex flex-col items-center">
             <span className="text-6xl font-bold text-indigo-400">
               {experience}+
