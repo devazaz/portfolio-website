@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className=" mx-auto my-[0.3px] px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300  shadow-lg py-[100px]">
+    <section id="about" className=" mx-auto  px-6 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300  shadow-lg py-[100px]">
       <h2 className="text-4xl font-extrabold text-center text-white">
         About Me
       </h2>
@@ -24,13 +24,14 @@ export default function About() {
           </p>
           <div className="mt-6 flex justify-center md:justify-start gap-4">
             <a
-              href="#"
+              href="Muhammad_Azaz.pdf"
+            download="Muhammad_Azaz.pdf"
               className="px-4 py-2 bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-600 transition"
             >
               Download Resume
             </a>
             <a
-              href="#"
+              href="#projects"
               className="px-4 py-2 border border-indigo-500 text-indigo-500 font-semibold rounded-lg hover:bg-indigo-500 hover:text-white transition"
             >
               View Projects

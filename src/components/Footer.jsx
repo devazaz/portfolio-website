@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-gray-900 text-gray-300 py-8 mt-[0.5px]">
+    <footer id="contact" className="bg-gray-900 text-gray-300 py-8">
       <div className="max-w-6xl mx-auto px-4 text-center">
         <p className="text-sm text-gray-400 mb-4">
           © 2024 Muhammad Azaz. All Rights Reserved.

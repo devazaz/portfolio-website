@@ -6,7 +6,9 @@ import {
   FaGitlab,
   FaGit,
 } from "react-icons/fa";
-import { SiNextdotjs, SiRedux, SiTailwindcss, SiPostgresql, SiPrisma, SiMongodb, SiFirebase, SiGatsby, SiStyledcomponents, SiBootstrap, SiStripe, SiJsonwebtokens } from "react-icons/si";
+import { SiNextdotjs,SiKonva, SiRedux, SiTailwindcss, SiPostgresql, SiPrisma, SiMongodb, SiFirebase, SiGatsby, SiStyledcomponents, SiBootstrap, SiStripe, SiJsonwebtokens } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
 
 export default function Skills() {
   const skills = [
@@ -19,24 +21,25 @@ export default function Skills() {
         { name: "Gatsby", icon: <SiGatsby /> },
         { name: "Redux", icon: <SiRedux /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-        { name: "Material UI", icon: <SiTailwindcss /> },
+        { name: "Material UI", icon: <SiMui /> },
         { name: "Bootstrap", icon: <SiBootstrap /> },
-        { name: "Konva.js", icon: <FaReact /> },
+        { name: "Konva.js", icon: <SiKonva /> },
         { name: "Styled Components", icon: <SiStyledcomponents /> },
       ],
     },
     {
       category: "Backend",
       items: [
-        { name: "Node.js", icon: <FaNodeJs /> },
-        { name: "Express", icon: <FaNodeJs /> },
+        { name: "Node.js", icon: <FaNode /> },
         { name: "MongoDB", icon: <SiMongodb /> },
+        { name: "Express", icon: <FaNodeJs /> },
         { name: "Firebase", icon: <SiFirebase /> },
-        { name: "PostgreSQL", icon: <SiPostgresql /> },
         { name: "SQL", icon: <FaDatabase /> },
         { name: "Postrgress", icon: <SiPostgresql /> },
         { name: "Prisma", icon: <SiPrisma /> },
         { name: "Mongoose", icon: <SiMongodb /> },
+        { name: "Stripe Payment Integration", icon: <SiStripe /> },
+
       ],
     },
     {
@@ -44,7 +47,6 @@ export default function Skills() {
       items: [
         { name: "RESTful APIs", icon: <SiJsonwebtokens /> },
         { name: "Authentication (JWT)", icon: <SiJsonwebtokens /> },
-        { name: "Stripe Payment Integration", icon: <SiStripe /> },
         { name: "Git", icon: <FaGit /> },
         { name: "GitHub", icon: <FaGithub /> },
         { name: "GitLab", icon: <FaGitlab /> },
@@ -55,7 +57,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300 mt-[0.5px]"
+      className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300 "
     >
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-12">

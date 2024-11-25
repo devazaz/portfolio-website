@@ -6,7 +6,7 @@ const Projects = () => {
       title: "Dream Drive",
       description:
         "A platform for skill-based competitions where users participate in Spot the Ball challenges to win dream cars.",
-      tags: ["React", "Node.js", "MongoDB", "AI"],
+      tags: ["React", "Node.js", "MongoDB", "Express.js","Shopify","Konva.js","Vanila Javascipt","WebSockets"],
       link: "https://dreamdrive.co.za/pages/test-game",
       src: "Dream Drive Logo.png",
     },
@@ -14,14 +14,14 @@ const Projects = () => {
       title: "SiteJetAI",
       description:
         "An AI-powered platform revolutionizing customer support by enhancing efficiency and redefining user experiences.",
-      tags: ["Next.js", "Stripe", "PostgreSQL", "E-Commerce"],
+      tags: ["React.js", "Stripe", "Postgress", "Machine Learning","Fast Api","Rest Api","Api Integration"],
       link: "https://sitejetai.com",
       src: "https://sitejetai.com//assets/SiteJetLogo-0d677d0b.svg",
     },
     {
       title: "Play Book AI",
       description: "AI-Powered Magic for Personalised Children's Adventures!",
-      tags: ["Socket.io", "Express", "Redis", "WebSockets"],
+      tags: ["Socket.io", "React.js", "Tailwind","Postgress","Rest Api","Api Integration"],
       link: "https://playbook.avatare.com",
       src: "https://playbook.avatare.com/assets/Logo-2794b624.svg",
     },
@@ -29,14 +29,14 @@ const Projects = () => {
       title: "Avatare",
       description:
         "An AI-powered platform offering automated business solutions like customer support and personalized marketing campaigns.",
-      tags: ["Socket.io", "Express", "Redis", "WebSockets"],
+      tags: ["React.js", "Tailwind","Rest Api","Api Integration" ,"WebSockets"],
       link: "http://www.avatare.com/",
       src: "http://www.avatare.com/assets/Avatare_logo_white-bdfa0369.svg",
     },
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300 mt-[0.5px]">
+    <section id="projects" className="py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300 ">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-12">My Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

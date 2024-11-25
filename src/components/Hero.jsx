@@ -69,7 +69,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="mt-8 flex gap-4">
+        <div className="mt-8 flex gap-4 absolute left-[calc(50%-200px)]">
           <a
             href="#projects"
             className="px-6 py-3 bg-indigo-500 text-white font-bold rounded-full shadow-lg hover:bg-indigo-600 transition cursor-pointer"
@@ -77,7 +77,8 @@ export default function Hero() {
             View My Projects
           </a>
           <a
-            href="#resume"
+            href="Muhammad_Azaz.pdf"
+            download="Muhammad_Azaz.pdf"
             className="px-6 py-3 bg-transparent border-2 border-indigo-500 text-indigo-500 font-bold rounded-full shadow-lg hover:bg-indigo-500 hover:text-white transition cursor-pointer"
           >
             Download Resume
