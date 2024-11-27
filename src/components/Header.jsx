@@ -25,7 +25,7 @@ export const Header = () => {
         {/* Navigation Links */}
         <nav
           className={`md:flex md:gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent transition-all duration-300 ${
-            isMenuOpen ? "flex flex-col" : "hidden"
+            isMenuOpen ? "flex flex-col z-20" : "hidden"
           }`}
         >
           <a

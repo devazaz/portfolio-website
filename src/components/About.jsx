@@ -7,7 +7,7 @@ export default function About() {
       <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-10">
         <div className="relative">
           <img
-            src="your-photo.jpg"
+            src="profile.JPG"
             alt="Profile"
             className="w-40 h-40 rounded-full shadow-lg transform transition-all hover:scale-105"
           />
