@@ -27,7 +27,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative flex flex-col items-center justify-center text-center bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden w-full p-[10%] mx-auto md:max-w-[75%] h-[75vh] md:h-screen">
+    <section className="relative flex flex-col items-center justify-center text-center bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden w-full p-[10%] mx-auto  h-[75vh] md:h-screen">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="w-48 h-48 md:w-96 md:h-96 bg-indigo-500 rounded-full blur-3xl opacity-30 absolute top-10 left-10"></div>
